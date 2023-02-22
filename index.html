@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./responsive.css">
+    <link rel="icon" type="image/x-icon" href="./images/logo2.0.jpg">
+    <title>Document</title>
+</head>
+<body>
+
+    <!--this is my default-->
+    <!-- <header>
+        <div id="logo">
+            <a href="#hero"><img src="./images/logo3.0.jpg" alt=""></a>
+        </div>
+        <nav>
+            <a href="#aboutMe">About</a>
+            <a href="#workHistory">Experiences</a>
+            <a href="#projects">Projects</a>
+            <a href="#contactMe">Contact</a>
+        </nav>
+    </header> -->
+
+    <header class="header">
+        <div id="logo">
+            <a href="#hero"><img src="./images/logo3.0.jpg" alt=""></a>
+        </div>
+        <nav class="navbar">
+            <ul class="nav-menu">
+                <li class="nav-item">
+                    <a href="#aboutMe" class="nav-link">About</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#workHistory" class="nav-link">Experiences</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#projects" class="nav-link">Projects</a>
+                </li>
+                <li class="nav-item">
+                    <a href="#contactMe" class="nav-link">Contact</a>
+                </li>
+            </ul>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
+            </div>
+        </nav>
+    </header>
+    <main>
+        <div class="left-side"> 
+            <a href="mailto:janmichaelcaasi@gmail.com" target="_blank"><p><span style="vertical-align: super;">_________</span>janmichaelcaasi@gmail.com<span style="vertical-align: super;">___________</span></p></a>
+        </div>
+        <div class="right-side"> 
+            <ul>
+                <li><a href="https://www.facebook.com/janmichael.caasi" target="_blank"> <img src="./images/facebook.png" alt="Facebook icon" style="height: 30px"></a></li>
+                <li><a href="https://github.com/jantoy052003" target="_blank"><img src="./images/github.png" alt="Github" style="height: 30px"></a></li>
+                <li><a href="https://www.facebook.com/messages/t/100043829582652/" target="_blank"><img src="./images/messanger.png" alt="Messanger" style="height: 35px; "></a></li>
+                <li><a href="https://web.whatsapp.com/" target="_blank"><img src="./images/whatsapp.png" alt="Whatsapp" style="height: 28px"></a></li>
+            </ul>
+        </div>
+
+        <div class="containers" id="hero">
+            <div> 
+                <h3>Hi, I am</h3>
+                <h1><strong> Jan Michael Caasi.</strong> <span style="color: #64FFDA">Coding is my passion!</span></h1>
+                <p>I'm an aspiring Web Developer with background with full stack web development and a little bit of Java and android mobile app development. </p>
+                <button id="checkOut" onclick="takeMe()">Check me out!</button>
+            </div>    
+        </div>    
+
+        <div class="containers" id="aboutMe">
+            <div>
+                <h1>ABOUT ME</h1>
+                <p>Hi there! My name is Jan Michael Caasi and I find coding challenging and fun at the same time. Right after the COVID pandemic started, I switched my focus to studying computer programming specifically web development. I have a tiny bit of a  background on Java Programming Language so learning HTML, CSS and Javascript is not that new of a territory for me.</p>
+                <p>Aside from learning how to be a full stack developer, I spend my free time riding my mountain bike around town, nearby cities and local bike parks and trails.</p>
+                <img src="./images/Me2.jpg" alt="">
+            </div>
+        </div>
+    
+
+       <div class="containers" id="workHistory">
+            <div>
+                <h1>What I did before</h1>
+                <p>I spent the first decade of my professional career being a Technical Support Specialist. I was given the chance to work with big international I.T. companies such as IBM, Dell computers, and most recently, Apple. </p>
+                <p> Talking about a whole new perspective in my career, I also had a short career shift as a waiter and cook and eventualy became stall supervisor in Singapore! </p>
+                <img src="./images/man-using-a-knife.png" alt="">
+            </div>
+        </div>
+
+          <div class="containers" id="projects">
+            <h1>Things I have built so far: </h1>
+            <div>
+                <a href="https://jantoy052003.github.io/bug-free-memory/" target="_blank"><img src="./images/sample_project.png" alt="" ></a>
+                <a href="https://jantoy052003.github.io/second-front-end-project/" target="_blank"><img src="./images/perfume_card.PNG" alt=""></a>
+            </div>
+        </div>
+
+        <section class="containers" id="contactMe">
+            <h1>CONTACT ME</h1>
+            <div>
+              <div>
+                <h3>Got a project in mind? Sign me up!</h3>
+                <form>
+                  <input type="text" placeholder="Email Address">
+                  <textarea cols="30" rows="10" placeholder="Message"></textarea>
+                  <button id="send" onclick="mailTo()"> SEND</button>
+                </form>
+              </div>
+            </div>
+        </section>
+        <section>
+            <footer>
+                <div>
+                    <nav>
+                    <a href="https://www.facebook.com/janmichael.caasi" target="_blank"> <img src="./images/facebook.png" alt="Facebook icon" style="height: 20px"></a>
+                    <a href="https://github.com/jantoy052003" target="_blank"><img src="./images/github.png" alt="Github" style="height: 20px"></a>
+                    <a href="https://www.facebook.com/messages/t/100043829582652/" target="_blank"><img src="./images/messanger.png" alt="Messanger" style="height: 25px"></a>
+                    <a href="https://web.whatsapp.com/" target="_blank"><img src="./images/whatsapp.png" alt="Whatsapp" style="height: 20px"></a>
+                    </nav>
+                </div>
+            </footer>
+        </section>
+    </main>
+    <script src="./main.js"></script>
+</body>
+</html>
